@@ -9,3 +9,4 @@ edition = "2021"
 yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
 gloo = "0.8.0"
 malvolio = "0.4.1"
+ammonia = "3.2.1"

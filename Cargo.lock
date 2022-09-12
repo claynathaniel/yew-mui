@@ -1107,6 +1107,7 @@ dependencies = [
 name = "yew-mui"
 version = "0.1.0"
 dependencies = [
+ "ammonia",
  "gloo",
  "malvolio",
  "yew",

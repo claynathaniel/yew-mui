@@ -8,9 +8,6 @@ use malvolio::{
 
 use ammonia::clean;
 
-use extend::ext;
-use malvolio::attributes::IntoAttribute;
-use malvolio::body::body_node::BodyNode;
 #[derive(Debug, Clone, Default)]
 #[must_use]
 pub struct Accordian {
@@ -40,10 +37,10 @@ impl Accordian {
 
     pub fn text_unsanitized<S>(mut self, text: S) -> Self
     where
-        S: Into<Cow<'static,string>>,
+        S: Into<Cow<'static,str>>,
     {
             self.text = text.into();
-            Self
+            self
     }
 
     pub fn attribute<I>(mut self, attribute: I ) -> Self
