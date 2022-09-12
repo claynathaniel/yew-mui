@@ -1,0 +1,11 @@
+/home/nathan/git/yew-mui/target/debug/deps/futures_core-8ddb05dfeaddce25.rmeta: /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/lib.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/future.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/stream.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/mod.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/poll.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/mod.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/atomic_waker.rs
+
+/home/nathan/git/yew-mui/target/debug/deps/futures_core-8ddb05dfeaddce25.d: /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/lib.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/future.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/stream.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/mod.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/poll.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/mod.rs /home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/atomic_waker.rs
+
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/lib.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/future.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/stream.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/mod.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/poll.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/mod.rs:
+/home/nathan/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.24/src/task/__internal/atomic_waker.rs:
