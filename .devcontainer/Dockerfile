@@ -11,5 +11,5 @@ RUN cargo install trunk
 RUN rustup target add wasm32-unknown-unknown
 COPY entrypoint.sh /
 RUN chmod +x entrypoint.sh
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT ["/bin/bash", "entrypoint.sh" ]
 EXPOSE 8080
