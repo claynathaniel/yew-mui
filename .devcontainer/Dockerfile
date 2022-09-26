@@ -9,6 +9,6 @@ FROM mcr.microsoft.com/devcontainers/rust:1-${VARIANT}
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 RUN cargo install trunk
 RUN rustup target add wasm32-unknown-unknown
-WORKDIR /home/vscode/
-ENTRYPOINT ["/bin/bash", ".devcontainer/entrypoint.sh" ]
+WORKDIR /vscode
+ENTRYPOINT ["/bin/bash"]
 EXPOSE 8080
