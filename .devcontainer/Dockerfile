@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/devcontainers/rust:1-${VARIANT}
 
 # [Optional] Uncomment this section to install additional packages.
  RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get upgrade  -y
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
+     && apt-get -y install curl
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 RUN cargo install trunk
 RUN rustup target add wasm32-unknown-unknown
