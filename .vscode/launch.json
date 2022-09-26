@@ -11,7 +11,7 @@
                     "build"
                 ],
                 "filter": {
-                    "kind": "bin"
+                    "kind": "lib"
                 }
             },
             "args": []
