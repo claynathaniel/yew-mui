@@ -9,5 +9,5 @@ FROM mcr.microsoft.com/devcontainers/rust:1-${VARIANT}
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 RUN cargo install trunk
 RUN rustup target add wasm32-unknown-unknown
-RUN trunk serve
+ENTRYPOINT [ "entrypoin.sh" ]
 EXPOSE 8080
